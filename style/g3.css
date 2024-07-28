@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.display-flex{
+    display: flex;
+}
+.navbar{
+ justify-content: space-between;
+ align-items: center;
+ margin:20px 120px;
+ 
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+
+}
+
+
+.brand{
+    font-weight: 700;
+    font-size: 2rem;
+
+
+}
+
+.text-grey{
+    color: #424242;
+}
+.text-light-grey{
+    color: #727272;
+}
+
+.navlink{
+ text-decoration: none;
+ font-style: 500;
+}
+.navlinks{
+    gap: 20px;
+}
+
+.navitem{
+    list-style: none;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.13);
+}
+.bannercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+width: 990px;
+height: 500px;
+left: 240px;
+right: 240px;
+top: 577px;
+bottom: 3483px;
+}
+
+
+
+/* responsine */
+@media screen and (max-width:576px) {
+    .navbar, .navlinks{
+        flex-direction: column;
+    }
+}
+
